@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Bruno Ace SC", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+.mainSec {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
