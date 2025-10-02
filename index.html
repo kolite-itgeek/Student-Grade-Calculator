@@ -1,25 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grade Calculator</title>
-    <link href='https://fonts.googleapis.com/css?family=Bruno Ace SC' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=IM Fell English' rel='stylesheet'>
-    <link rel="stylesheet" href="score.css">
-</head>
-<body>
-    <section>
-        <main class="mainSec">
-            <h1>
-                Student Grade Calculator
-            </h1>
-            <p>
-                Please navigate to your browser console to view result. Good luck!!
-            </p>
-        </main>
+    <link
+      href="https://fonts.googleapis.com/css?family=Bruno Ace SC"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=IM Fell English"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="score.css" />
+  </head>
+  <body>
+    <section class="secWrapAll">
+      <main class="mainSec">
+        <h1>Student Grade Calculator</h1>
+        <p class="p-top">
+          Please navigate to your browser console to view result VIA console,
+        </p>
+        <p>
+            otherwise result is displayed in plain text below. Good luck!!
+        </p>
+      </main>
+      <section class="nestedSec">
+        <form id="gradeForm">
+          <label>
+            Student Name:
+            <input type="text" id="studentName" required /> </label
+          ><br /><br />
+
+          <label>
+            Assignment 1 Score:
+            <input
+              type="number"
+              id="assignment1"
+              min="0"
+              max="100"
+              required
+            /> </label
+          ><br /><br />
+
+          <label>
+            Assignment 2 Score:
+            <input
+              type="number"
+              id="assignment2"
+              min="0"
+              max="100"
+              required
+            /> </label
+          ><br /><br />
+
+          <label>
+            Final Exam Score:
+            <input
+              type="number"
+              id="finalExam"
+              min="0"
+              max="100"
+              required
+            /> </label
+          ><br /><br />
+
+          <button type="submit">Calculate Grade</button>
+        </form>
+      </section>
+      <div class="result" id="results"></div>
     </section>
-    <script src="score.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

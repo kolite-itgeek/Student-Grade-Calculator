@@ -12,9 +12,21 @@ body {
     align-items: center;
 }
 
+.secWrapAll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
 p {
     font-family: "Poppins";
     font-size: 14px;
+}
+
+.p-top {
+    margin-bottom: -10px;
 }
 
 .mainSec {
@@ -25,3 +37,16 @@ p {
     align-items: center;
     gap: 10px;
 }
+
+.nestedSec {
+    width: 350px;
+    height: 250px;
+    border: 2px solid grey;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
