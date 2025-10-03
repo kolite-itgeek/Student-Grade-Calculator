@@ -14,10 +14,10 @@ document.getElementById("gradeForm").addEventListener("submit", function(event) 
   //Final Grade calculation - weighted average (40% assignments, 60% final exam)
   const finalGrade = (assignmentAverage * 0.4) + (finalExam * 0.6);
 
-  // Check if passed
+  // Checked if passed
   const hasPassed = finalGrade >= 70;
 
-  // Check if excellent (passed AND finalExam > 90)
+  // Checked if excellent (passed AND finalExam > 90)
   const isExcellent = hasPassed && finalExam > 90;
 
   // Failure message if final grade <= 69
