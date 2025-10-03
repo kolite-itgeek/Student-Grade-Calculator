@@ -47,6 +47,13 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+.submitBtn {
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: black;
 }
 
