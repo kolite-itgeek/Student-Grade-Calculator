@@ -9,4 +9,4 @@
 
 * If final grade >= 70, the calculator display result as passed and indicate the pass score.
 * if final grade < 70, the calculator display result as fail and indicate the failed score.
-* if final grade >=70 && Final Exam score is > 90, then the calculator display and additional remark as excellent performance (This will onlt be true if both conditions are met).
+* if final grade >=70 && Final Exam score is > 90, then the calculator display an additional remark as excellent performance (This will only be true if both conditions are met).
